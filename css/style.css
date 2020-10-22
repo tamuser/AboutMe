@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+.contaner {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /* header */
 
@@ -13,6 +18,8 @@ body {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 100%;
   z-index: 3;
+  background: rgb(240,3,3);
+background: linear-gradient(90deg, rgba(240,3,3,0.8477766106442577) 13%, rgba(58,68,222,0.8421743697478992) 34%, rgba(240,25,49,0.9150035014005602) 56%, rgba(34,32,246,0.7217261904761905) 86%);
 }
 
 .header .logo {
@@ -233,7 +240,8 @@ h1 {
 }
 
 .btn:hover {
-  background: #ffd700;
+  background: rgb(240,3,3);
+background: linear-gradient(90deg, rgba(240,3,3,0.8477766106442577) 13%, rgba(34,32,246,0.7217261904761905) 86%);
 }
 
 .btn:active {
